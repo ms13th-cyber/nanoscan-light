@@ -138,3 +138,14 @@ if (defined('WP_CLI') && WP_CLI) {
         }
     });
 }
+
+
+require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+
+$updateChecker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
+    'https://github.com/ms13th-cyber/nanoscan-light/',
+    __FILE__,
+    'nanoscan-light'
+);
+
+$updateChecker->setBranch('main');
