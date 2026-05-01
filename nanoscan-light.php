@@ -5,7 +5,7 @@
  * Version: 0.1.0
  * Tested up to: 6.9.4
  * Requires PHP: 8.3.23
- * Author: masato shibuya
+ * Author: masato shibuya(Image-box Co., Ltd.)
  */
 
 if (!defined('ABSPATH')) exit;
