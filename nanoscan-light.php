@@ -2,8 +2,8 @@
 /**
  * Plugin Name: NanoScan Light
  * Description: Ultra-lightweight security scanner for uploads directory. (進捗表示・Webシェル検知強化版)
- * Version: 1.0.0
- * Tested up to: 6.9.4
+ * Version: 1.0.1
+ * Tested up to: 7.0.0
  * Requires PHP: 8.1
  * Author: masato shibuya(Image-box Co., Ltd.)
  */

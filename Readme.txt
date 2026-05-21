@@ -2,9 +2,9 @@
 Contributors: masato shibuya(Image-box Co., Ltd.)
 Tags: security, scanner, performance, malware, light, forensic
 Requires at least: 5.0
-Tested up to: 6.9.4
+Tested up to: 7.0.0
 Requires PHP: 8.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ v1.0.0 では、軽量性を維持したまま AJAX インターフェースを�
 *   **安全設計**: 自動削除機能は非搭載です。検知されたファイルは管理者が手動で検証することを前提としています。
 
 == Changelog ==
+
+= 1.0.1 =
+* Wordpress7.0.0での動作確認。
 
 = 1.0.0 =
 *   **Major Update**: AJAXベースのスキャンエンジンへの刷新。
